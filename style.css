@@ -53,3 +53,42 @@
   padding: 10px;
   box-shadow: 0 0 50px rgba(0, 0, 0, .5)
 }
+
+.card-heading{
+  font-family: 'Source Code Pro', monospace;
+  font size: 25px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: black;
+  letter-spacing: 3px;
+  width: 70%;
+  text-align: center;
+  padding: 5px;
+}
+
+.card-paragraph{
+  font-size: 18px;
+  color: white;
+  width: 85%;
+  text-align: justify;
+  position: relative;
+}
+
+.card-paragraph::first-letter{
+  margin-left: 40px;
+}
+
+.card-paragraph i{
+  font-size: 25px;
+  font: italic;
+  position: absolute;
+}
+
+.card-paragraph i:first-child {
+  top: -10%;
+}
+
+.card-paragraph i:last-child{
+  bottom: -10%;
+  margin-left: 10px;
+}
